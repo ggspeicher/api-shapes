@@ -65,7 +65,7 @@ class ApiShapes extends PolymerElement {
   }
 
   _uType(method){
-    return method;
+    return (method || '').toUpperCase();
   }
 }
 

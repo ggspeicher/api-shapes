@@ -25,6 +25,7 @@ class ApiShapes extends PolymerElement {
         .main {
           display: inline-block;
           padding: 10px;
+          min-width: 40px;
           text-align: center;
           vertical-align: middle;
           font-family: var(--api-shapes-font-family);
